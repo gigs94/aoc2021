@@ -12,7 +12,6 @@ def forward(p, value):
     return p
     
 def run(p):
-    #with open('day2.example.txt') as f:
     with open('day2.dat') as f:
         [ eval(x)(p,y) for x,y in ( l.split() for l in f ) ]
     return p
