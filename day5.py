@@ -45,7 +45,7 @@ def bad_coords(vcs,s):
             xcur+=xdir
             ycur+=ydir
             if (xdir and xcur > z) and (ydir and ycur > a) and (not xdir and xcur < z) and (not ydir and ycur < a):
-                print(f'error!  data if fucked {x} {y} {z} {a} {xdir} {xcur} {ydir} {ycur}')
+                print(f'error!  data is fubared {x} {y} {z} {a} {xdir} {xcur} {ydir} {ycur}')
 
     return bad_coords
         
